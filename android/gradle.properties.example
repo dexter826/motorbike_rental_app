@@ -1,0 +1,7 @@
+org.gradle.jvmargs=-Xmx8G -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError
+android.useAndroidX=true
+android.enableJetifier=true
+
+# Google Maps API Key
+# Thay thế 'your_google_maps_api_key_here' bằng API key thực tế của bạn
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
