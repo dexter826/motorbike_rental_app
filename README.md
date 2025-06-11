@@ -18,7 +18,7 @@
 
 ## Mô tả
 
-Ứng dụng di động dành cho nhân viên quản lý việc cho thuê xe máy. Đặc điểm chính: khách hàng thanh toán khi trả xe (không trả trước), bao gồm phí trễ hạn và bồi thường nếu có.
+Ứng dụng di động dành cho nhân viên quản lý việc cho thuê xe máy.
 
 ## Tính năng chính
 
@@ -41,9 +41,9 @@
 - Quét QR xác nhận pickup/return
 - Theo dõi vị trí xe trên Google Maps
 
-### Thanh toán (đặc biệt)
+### Thanh toán
 
-- **Thanh toán khi trả xe** (không trả trước)
+- Thanh toán khi trả xe
 - Tính phí: thuê cơ bản + phí trễ + bồi thường (nếu có)
 - Phương thức: Tiền mặt, VNPay QR Code
 - Chữ ký khách hàng trên màn hình
@@ -58,16 +58,16 @@
 
 ## Workflow
 
-**Thuê xe:** Tạo đơn → Xác nhận pickup → Ongoing
-**Trả xe:** Kiểm tra xe → Tính phí → Thanh toán → Completed
-**Thông báo:** Auto email/notification cho đơn sắp hết hạn
+- **Thuê xe:** Tạo đơn → Xác nhận pickup → Ongoing
+- **Trả xe:** Kiểm tra xe → Tính phí → Thanh toán → Completed
+- **Thông báo:** Auto email/notification cho đơn sắp hết hạn
 
 ## Công nghệ
 
-**Frontend:** Flutter 3.7.2, Provider (state management)
-**Backend:** Firebase (Auth, Firestore, Storage)
-**Tính năng:** Google Maps, QR Scanner, PDF Reports, Email notifications
-**Thanh toán:** VNPay QR Code integration
+- **Frontend:** Flutter 3.7.2, Provider (state management)
+- **Backend:** Firebase (Auth, Firestore, Storage)
+- **Tính năng:** Google Maps, QR Scanner, PDF Reports, Email notifications
+- **Thanh toán:** VNPay QR Code integration
 
 ## Cấu trúc
 
@@ -103,7 +103,7 @@ lib/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/motorbike_rental_app.git
+git clone https://github.com/dexter826/motorbike_rental_app.git
 cd motorbike_rental_app
 ```
 
@@ -147,12 +147,6 @@ flutter run
 
 1. Đăng nhập → Quản lý xe máy → Quản lý khách hàng
 2. Tạo đơn thuê → Xác nhận pickup → Xử lý trả xe & thanh toán
-
-## Ghi chú
-
-**Đặc điểm:** Thanh toán khi trả xe (không trả trước), tích hợp VNPay QR, thông báo email tự động
-
-**Hạn chế:** VNPay dùng mock gateway, cần cấu hình SMTP thủ công
 
 ---
 
