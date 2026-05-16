@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/main_logo.png" alt="Logo" width="250" />
+  <img src="assets/images/logo.webp" alt="Logo" width="200" />
   <h1>🏍️ Motorbike Rental Management</h1>
   <p><strong>Hệ sinh thái quản lý cho thuê xe máy toàn diện dành cho nhân viên và doanh nghiệp</strong></p>
 
@@ -37,13 +37,13 @@
 
 Dự án **Ứng dụng Quản lý Cho thuê Xe máy (Motorbike Rental App)** được phát triển nhằm mục đích phục vụ công tác quản lý nghiệp vụ thuê xe máy chuyên nghiệp tại các cửa hàng, cơ sở kinh doanh thuê xe.
 
-* **Môn học:** Lập trình Di động
-* **Đơn vị đào tạo:** Trường Đại học Công Thương TP.HCM (HUIT)
-* **Nhóm phát triển:**
-  * **Trần Công Minh** - `2001222641` (Nhóm trưởng - *Architecture & Core Services*)
-  * **Lê Đức Trung** - `2001225676` (*UI/UX & Payment Integration*)
-  * **Nguyễn Chí Tài** - `2001224227` (*Database & Authentication*)
-  * **Tạ Nguyên Vũ** - `2001225916` (*Maps tracking & Notification*)
+- **Môn học:** Lập trình Di động
+- **Đơn vị đào tạo:** Trường Đại học Công Thương TP.HCM (HUIT)
+- **Nhóm phát triển:**
+  - **Trần Công Minh** - `2001222641` (Nhóm trưởng - _Architecture & Core Services_)
+  - **Lê Đức Trung** - `2001225676` (_UI/UX & Payment Integration_)
+  - **Nguyễn Chí Tài** - `2001224227` (_Database & Authentication_)
+  - **Tạ Nguyên Vũ** - `2001225916` (_Maps tracking & Notification_)
 
 ---
 
@@ -54,8 +54,9 @@ Trong kỷ nguyên số hóa, việc quản lý cho thuê phương tiện theo c
 **Motorbike Rental Management App** ra đời nhằm giải quyết triệt để các vấn đề trên thông qua một ứng dụng di động trực quan, mạnh mẽ và tự động hóa toàn bộ quy trình: từ tiếp nhận khách hàng, kiểm tra giấy tờ eKYC, tạo hợp đồng thuê, theo dõi tình trạng xe qua bản đồ GPS, cho đến thanh toán QR không tiền mặt và xuất hóa đơn điện tử PDF.
 
 ### 🎯 Đối tượng sử dụng
-* **Quản trị viên (Admin):** Giám sát toàn bộ hoạt động kinh doanh, thống kê doanh thu, quản lý tài khoản và phân quyền nhân viên.
-* **Nhân viên (Staff):** Thực hiện các thao tác vận hành hàng ngày: giao/nhận xe, kiểm tra khách hàng, quét mã QR, thanh toán và in hóa đơn.
+
+- **Quản trị viên (Admin):** Giám sát toàn bộ hoạt động kinh doanh, thống kê doanh thu, quản lý tài khoản và phân quyền nhân viên.
+- **Nhân viên (Staff):** Thực hiện các thao tác vận hành hàng ngày: giao/nhận xe, kiểm tra khách hàng, quét mã QR, thanh toán và in hóa đơn.
 
 ---
 
@@ -88,29 +89,34 @@ mindmap
 ```
 
 ### 🏍️ Quản lý Danh mục Xe & Thương hiệu
-* **Quản lý đa dạng:** Thêm, sửa, xóa thông tin chi tiết các mẫu xe và hãng xe.
-* **Theo dõi trạng thái theo thời gian thực:** Phân loại rõ ràng tình trạng `Available` (Sẵn sàng), `Rented` (Đang cho thuê), `Maintenance` (Đang bảo dưỡng).
-* **Tích hợp hình ảnh & QR:** Upload ảnh phương tiện tự động lên hệ thống lưu trữ đám mây, tự động sinh và quét mã QR định danh cho từng xe.
+
+- **Quản lý đa dạng:** Thêm, sửa, xóa thông tin chi tiết các mẫu xe và hãng xe.
+- **Theo dõi trạng thái theo thời gian thực:** Phân loại rõ ràng tình trạng `Available` (Sẵn sàng), `Rented` (Đang cho thuê), `Maintenance` (Đang bảo dưỡng).
+- **Tích hợp hình ảnh & QR:** Upload ảnh phương tiện tự động lên hệ thống lưu trữ đám mây, tự động sinh và quét mã QR định danh cho từng xe.
 
 ### 👥 Quản lý Khách hàng (CRM)
-* **Hồ sơ khách hàng:** Quản lý thông tin định danh người thuê bao gồm số CCCD/Passport, họ tên, địa chỉ, số điện thoại.
-* **Lịch sử giao dịch:** Tra cứu nhanh lịch sử thuê xe, theo dõi mức độ uy tín và các khoản thanh toán của từng khách hàng.
+
+- **Hồ sơ khách hàng:** Quản lý thông tin định danh người thuê bao gồm số CCCD/Passport, họ tên, địa chỉ, số điện thoại.
+- **Lịch sử giao dịch:** Tra cứu nhanh lịch sử thuê xe, theo dõi mức độ uy tín và các khoản thanh toán của từng khách hàng.
 
 ### 📜 Quản lý Đơn thuê (Rental Workflow)
-* **Tạo đơn nhanh chóng:** Giao diện trực quan cho phép chọn xe, áp dụng khách hàng và thiết lập thời gian bắt đầu/kết thúc chỉ với vài lượt chạm.
-* **Quản lý chu trình sống của đơn:** Theo dõi trạng thái từ `Ongoing` (Đang diễn ra) sang `Completed` (Đã hoàn thành) hoặc `Expired` (Đã trễ hạn).
-* **Định vị & Bản đồ:** Tích hợp Google Maps theo dõi vị trí xe trực tiếp và định vị cửa hàng giao/nhận xe.
+
+- **Tạo đơn nhanh chóng:** Giao diện trực quan cho phép chọn xe, áp dụng khách hàng và thiết lập thời gian bắt đầu/kết thúc chỉ với vài lượt chạm.
+- **Quản lý chu trình sống của đơn:** Theo dõi trạng thái từ `Ongoing` (Đang diễn ra) sang `Completed` (Đã hoàn thành) hoặc `Expired` (Đã trễ hạn).
+- **Định vị & Bản đồ:** Tích hợp Google Maps theo dõi vị trí xe trực tiếp và định vị cửa hàng giao/nhận xe.
 
 ### 💳 Thanh toán & Xuất Hóa đơn Đa năng
-* **Công cụ tính phí thông minh:** Tự động tính toán tiền thuê gốc, phí trễ hạn (nếu có) và tiền bồi thường hư hỏng phương tiện.
-* **Cổng thanh toán hiện đại:** Hỗ trợ thanh toán tiền mặt truyền thống hoặc mã QR trực tuyến qua cổng **VNPay**.
-* **Chữ ký điện tử:** Khách hàng ký xác nhận biên bản giao/trả xe trực tiếp trên màn hình cảm ứng điện thoại hoặc máy tính bảng.
-* **Hóa đơn & Báo cáo PDF:** Tự động kết xuất hóa đơn thanh toán và hợp đồng dưới dạng PDF chuyên nghiệp, hỗ trợ chia sẻ qua Zalo/Email hoặc in trực tiếp qua máy in không dây (AirPrint / Mopria).
+
+- **Công cụ tính phí thông minh:** Tự động tính toán tiền thuê gốc, phí trễ hạn (nếu có) và tiền bồi thường hư hỏng phương tiện.
+- **Cổng thanh toán hiện đại:** Hỗ trợ thanh toán tiền mặt truyền thống hoặc mã QR trực tuyến qua cổng **VNPay**.
+- **Chữ ký điện tử:** Khách hàng ký xác nhận biên bản giao/trả xe trực tiếp trên màn hình cảm ứng điện thoại hoặc máy tính bảng.
+- **Hóa đơn & Báo cáo PDF:** Tự động kết xuất hóa đơn thanh toán và hợp đồng dưới dạng PDF chuyên nghiệp, hỗ trợ chia sẻ qua Zalo/Email hoặc in trực tiếp qua máy in không dây (AirPrint / Mopria).
 
 ### 🔔 Thông báo, Báo cáo & Phân quyền
-* **Thông báo tự động:** Hệ thống tự động gửi Push Notification và Email cảnh báo khi hợp đồng sắp hết hạn hoặc đã quá hạn.
-* **Dashboard Phân tích:** Trực quan hóa doanh thu theo ngày/tháng/năm bằng biểu đồ đồ thị đẹp mắt.
-* **Phân quyền chặt chẽ:** Admin có toàn quyền quản trị hệ thống, cấp phát hoặc vô hiệu hóa tài khoản nhân viên.
+
+- **Thông báo tự động:** Hệ thống tự động gửi Push Notification và Email cảnh báo khi hợp đồng sắp hết hạn hoặc đã quá hạn.
+- **Dashboard Phân tích:** Trực quan hóa doanh thu theo ngày/tháng/năm bằng biểu đồ đồ thị đẹp mắt.
+- **Phân quyền chặt chẽ:** Admin có toàn quyền quản trị hệ thống, cấp phát hoặc vô hiệu hóa tài khoản nhân viên.
 
 ---
 
@@ -204,13 +210,13 @@ sequenceDiagram
     participant App as Flutter App
     participant DB as Cloud Firestore
     participant Mail as Email Service
-    
+
     Note over Staff, Mail: QUY TRÌNH TẠO ĐƠN THUÊ XE
     Staff->>App: Lựa chọn xe sẵn sàng & Khách hàng
     App->>DB: Khởi tạo hợp đồng (Status: Ongoing) & Cập nhật xe (Status: Rented)
     DB-->>App: Trả về thông tin hợp đồng thành công
     App->>Mail: Gửi Email xác nhận kèm chi tiết hợp đồng cho khách hàng
-    
+
     Note over Staff, Mail: QUY TRÌNH HOÀN TRẢ & THANH TOÁN
     Staff->>App: Quét mã QR xe hoặc tìm kiếm mã hợp đồng
     App->>Staff: Hiển thị thông tin thời gian thực tế & Kiểm tra hư hỏng
@@ -229,26 +235,32 @@ sequenceDiagram
 Để tham gia phát triển hoặc chạy thử nghiệm dự án trên máy trạm của bạn, vui lòng đảm bảo đáp ứng các yêu cầu hệ thống sau:
 
 ### 📋 Yêu cầu Hệ thống
-* **Hệ điều hành:** Windows, macOS, hoặc Linux.
-* **Flutter SDK:** Phiên bản `3.7.2` trở lên (Khuyến nghị sử dụng bản Stable mới nhất).
-* **Dart SDK:** Phiên bản `3.0.0` trở lên.
-* **IDE:** VS Code (đã cài extension Flutter/Dart) hoặc Android Studio / IntelliJ IDEA.
-* **Thiết bị:** Máy ảo Android Emulator / iOS Simulator hoặc thiết bị vật lý kết nối qua cáp / Wi-Fi Debug.
+
+- **Hệ điều hành:** Windows, macOS, hoặc Linux.
+- **Flutter SDK:** Phiên bản `3.7.2` trở lên (Khuyến nghị sử dụng bản Stable mới nhất).
+- **Dart SDK:** Phiên bản `3.0.0` trở lên.
+- **IDE:** VS Code (đã cài extension Flutter/Dart) hoặc Android Studio / IntelliJ IDEA.
+- **Thiết bị:** Máy ảo Android Emulator / iOS Simulator hoặc thiết bị vật lý kết nối qua cáp / Wi-Fi Debug.
 
 ### 📥 Bước 1: Clone Repository
+
 Mở terminal (hoặc Git Bash) và thực hiện sao chép mã nguồn về máy:
+
 ```bash
 git clone https://github.com/dexter826/motorbike_rental_app.git
 cd motorbike_rental_app
 ```
 
 ### 📦 Bước 2: Tải Dependencies
+
 Thực hiện cài đặt các thư viện cần thiết đã được khai báo trong `pubspec.yaml`:
+
 ```bash
 flutter pub get
 ```
 
 ### 🔥 Bước 3: Thiết lập Firebase & Dịch vụ Nền tảng
+
 Dự án sử dụng Firebase làm hạ tầng dữ liệu và xác thực. Vui lòng thiết lập các tệp cấu hình bảo mật:
 
 1. Tạo một dự án mới trên [Firebase Console](https://console.firebase.google.com/). Kích hoạt các dịch vụ **Authentication** (Email/Password), **Firestore Database**, và **Storage**.
@@ -257,7 +269,7 @@ Dự án sử dụng Firebase làm hạ tầng dữ liệu và xác thực. Vui 
    # Sao chép file mẫu thành file chính thức
    cp lib/firebase_options.dart.example lib/firebase_options.dart
    ```
-   *(Sau đó cập nhật thông tin tương ứng với cấu hình dự án Firebase của bạn).*
+   _(Sau đó cập nhật thông tin tương ứng với cấu hình dự án Firebase của bạn)._
 3. Đối với nền tảng **Android**:
    ```bash
    cp android/app/google-services.json.example android/app/google-services.json
@@ -274,6 +286,7 @@ Dự án sử dụng Firebase làm hạ tầng dữ liệu và xác thực. Vui 
 Sau khi hoàn tất cấu hình, bạn có thể khởi chạy ứng dụng trực tiếp từ terminal hoặc thông qua tính năng Run/Debug của IDE.
 
 ### ⚡ Chạy chế độ Phát triển (Debug Mode)
+
 ```bash
 # Kiểm tra các thiết bị khả dụng
 flutter devices
@@ -286,6 +299,7 @@ flutter run -d emulator-5554
 ```
 
 ### 📦 Xây dựng bản Release (Production Build)
+
 ```bash
 # Build file APK cho Android (arm64 hoặc app bundle)
 flutter build apk --release --split-per-abi
@@ -309,6 +323,7 @@ Hệ thống quản lý các khóa API bảo mật và cấu hình động thôn
 ### 📝 Bảng Cấu hình Biến Môi trường
 
 Sao chép tệp `.env.example` thành `.env` tại thư mục gốc của dự án:
+
 ```bash
 cp .env.example .env
 ```
@@ -346,9 +361,11 @@ IMGBB_API_KEY=your_real_imgbb_api_key_here
 ```
 
 ### 🗺️ Thiết lập riêng cho Google Maps
+
 Ngoài file `.env`, để bản đồ hiển thị chuẩn xác trên Native, bạn cần bổ sung API key vào cấu hình dự án:
-* **Android:** Sao chép `android/gradle.properties.example` thành `android/gradle.properties` và điền key.
-* **iOS:** Sao chép `ios/Config.xcconfig.example` thành `ios/Config.xcconfig` (Nếu phát triển trên macOS).
+
+- **Android:** Sao chép `android/gradle.properties.example` thành `android/gradle.properties` và điền key.
+- **iOS:** Sao chép `ios/Config.xcconfig.example` thành `ios/Config.xcconfig` (Nếu phát triển trên macOS).
 
 ---
 
@@ -399,21 +416,25 @@ motorbike_rental_app/
 Chúng tôi vô cùng hoan nghênh sự đóng góp từ cộng đồng và các lập trình viên để hoàn thiện hệ sinh thái quản lý này. Để quy trình phối hợp làm việc trơn tru, vui lòng tuân thủ quy chuẩn sau:
 
 ### 🌿 Quy chuẩn Nhánh (Branching Model)
-* `main`: Nhánh chứa mã nguồn ổn định nhất (Production-ready). Không trực tiếp đẩy (push) code lên nhánh này.
-* `develop`: Nhánh tích hợp các tính năng mới phục vụ kiểm thử.
-* `feature/<tên-tính-năng>`: Nhánh phát triển tính năng mới (Ví dụ: `feature/vnpay-integration`).
-* `bugfix/<tên-lỗi>`: Nhánh sửa lỗi phát sinh (Ví dụ: `bugfix/fix-pdf-overflow`).
+
+- `main`: Nhánh chứa mã nguồn ổn định nhất (Production-ready). Không trực tiếp đẩy (push) code lên nhánh này.
+- `develop`: Nhánh tích hợp các tính năng mới phục vụ kiểm thử.
+- `feature/<tên-tính-năng>`: Nhánh phát triển tính năng mới (Ví dụ: `feature/vnpay-integration`).
+- `bugfix/<tên-lỗi>`: Nhánh sửa lỗi phát sinh (Ví dụ: `bugfix/fix-pdf-overflow`).
 
 ### 💬 Quy chuẩn Commit (Conventional Commits)
+
 Thông điệp commit cần rõ ràng, thể hiện mục đích thay đổi:
-* `feat:` Bổ sung một tính năng mới.
-* `fix:` Sửa một lỗi trong hệ thống.
-* `docs:` Thay đổi hoặc cập nhật tài liệu (README, comments...).
-* `style:` Định dạng mã nguồn (khoảng trắng, dấu chấm phẩy, linter... không đổi logic).
-* `refactor:` Tái cấu trúc mã nguồn (không thêm tính năng hay sửa lỗi).
-* `perf:` Tối ưu hóa hiệu năng ứng dụng.
+
+- `feat:` Bổ sung một tính năng mới.
+- `fix:` Sửa một lỗi trong hệ thống.
+- `docs:` Thay đổi hoặc cập nhật tài liệu (README, comments...).
+- `style:` Định dạng mã nguồn (khoảng trắng, dấu chấm phẩy, linter... không đổi logic).
+- `refactor:` Tái cấu trúc mã nguồn (không thêm tính năng hay sửa lỗi).
+- `perf:` Tối ưu hóa hiệu năng ứng dụng.
 
 ### 🔄 Quy trình Tạo Pull Request (PR Workflow)
+
 1. Fork dự án về tài khoản của bạn.
 2. Tạo nhánh tính năng mới từ `develop` (`git checkout -b feature/amazing-feature`).
 3. Commit các thay đổi tuân thủ quy chuẩn (`git commit -m 'feat: bổ sung tính năng xuất báo cáo Excel'`).
@@ -433,7 +454,7 @@ MIT License
 
 Bản quyền (c) 2026 Motorbike Rental App Team - Trường Đại học Công Thương TP.HCM
 
-Được phép miễn phí cho bất kỳ ai nhận được bản sao của phần mềm này và các tệp tài liệu đi kèm 
+Được phép miễn phí cho bất kỳ ai nhận được bản sao của phần mềm này và các tệp tài liệu đi kèm
 để sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối mà không chịu sự hạn chế nào.
 ```
 
