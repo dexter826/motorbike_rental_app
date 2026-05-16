@@ -8,7 +8,6 @@
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
     <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
     <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-brightgreen?style=for-the-badge" alt="Platforms" />
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" />
   </p>
 </div>
 
@@ -28,8 +27,6 @@
 6. [Chạy Dự án](#6-chạy-dự-án)
 7. [Cấu hình Môi trường (Environment)](#7-cấu-hình-môi-trường-environment)
 8. [Cấu trúc Thư mục](#8-cấu-trúc-thư-mục)
-9. [Hướng dẫn Đóng góp](#9-hướng-dẫn-đóng-góp)
-10. [Giấy phép (License)](#10-giấy-phép-license)
 
 ---
 
@@ -407,55 +404,6 @@ motorbike_rental_app/
 │   └── main.dart              # Điểm khởi chạy đầu tiên của toàn bộ ứng dụng
 ├── pubspec.yaml               # Quản lý cấu hình dự án, thư viện & phiên bản
 └── README.md                  # Tài liệu hướng dẫn kỹ thuật hoàn chỉnh
-```
-
----
-
-## 9. 🤝 Hướng dẫn Đóng góp (Contributing)
-
-Chúng tôi vô cùng hoan nghênh sự đóng góp từ cộng đồng và các lập trình viên để hoàn thiện hệ sinh thái quản lý này. Để quy trình phối hợp làm việc trơn tru, vui lòng tuân thủ quy chuẩn sau:
-
-### 🌿 Quy chuẩn Nhánh (Branching Model)
-
-- `main`: Nhánh chứa mã nguồn ổn định nhất (Production-ready). Không trực tiếp đẩy (push) code lên nhánh này.
-- `develop`: Nhánh tích hợp các tính năng mới phục vụ kiểm thử.
-- `feature/<tên-tính-năng>`: Nhánh phát triển tính năng mới (Ví dụ: `feature/vnpay-integration`).
-- `bugfix/<tên-lỗi>`: Nhánh sửa lỗi phát sinh (Ví dụ: `bugfix/fix-pdf-overflow`).
-
-### 💬 Quy chuẩn Commit (Conventional Commits)
-
-Thông điệp commit cần rõ ràng, thể hiện mục đích thay đổi:
-
-- `feat:` Bổ sung một tính năng mới.
-- `fix:` Sửa một lỗi trong hệ thống.
-- `docs:` Thay đổi hoặc cập nhật tài liệu (README, comments...).
-- `style:` Định dạng mã nguồn (khoảng trắng, dấu chấm phẩy, linter... không đổi logic).
-- `refactor:` Tái cấu trúc mã nguồn (không thêm tính năng hay sửa lỗi).
-- `perf:` Tối ưu hóa hiệu năng ứng dụng.
-
-### 🔄 Quy trình Tạo Pull Request (PR Workflow)
-
-1. Fork dự án về tài khoản của bạn.
-2. Tạo nhánh tính năng mới từ `develop` (`git checkout -b feature/amazing-feature`).
-3. Commit các thay đổi tuân thủ quy chuẩn (`git commit -m 'feat: bổ sung tính năng xuất báo cáo Excel'`).
-4. Đẩy nhánh lên repository của bạn (`git push origin feature/amazing-feature`).
-5. Mở một Pull Request hướng vào nhánh `develop` của kho lưu trữ gốc và mô tả chi tiết các thay đổi.
-
----
-
-## 10. 📄 Giấy phép (License)
-
-Dự án này được phát hành dưới Giấy phép **MIT License**.
-
-Chi tiết đầy đủ về quyền hạn và nghĩa vụ pháp lý, vui lòng tham khảo tệp [LICENSE](LICENSE) đính kèm trong repository.
-
-```
-MIT License
-
-Bản quyền (c) 2026 Motorbike Rental App Team - Trường Đại học Công Thương TP.HCM
-
-Được phép miễn phí cho bất kỳ ai nhận được bản sao của phần mềm này và các tệp tài liệu đi kèm
-để sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối mà không chịu sự hạn chế nào.
 ```
 
 ---
