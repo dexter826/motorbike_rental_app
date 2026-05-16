@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/main_logo.png" alt="Logo" width="120" />
+  <img src="assets/images/main_logo.png" alt="Logo" width="250" />
   <h1>🏍️ Motorbike Rental Management</h1>
   <p><strong>Hệ sinh thái quản lý cho thuê xe máy toàn diện dành cho nhân viên và doanh nghiệp</strong></p>
 
